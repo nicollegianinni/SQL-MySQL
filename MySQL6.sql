@@ -7,6 +7,6 @@ USE sucos;
 ALTER TABLE tb_cliente ADD COLUMN (Data_Nascimento DATE);
 
 ALTER TABLE tb_produtos ADD COLUMN (preços FLOAT);
-
-
+ 
+--
 
