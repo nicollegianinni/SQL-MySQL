@@ -1,0 +1,12 @@
+
+
+USE sucos;
+
+-- ADICIONANDO UM NOVO CAMPO NA TABELA EXISTENTE
+
+ALTER TABLE tb_cliente ADD COLUMN (Data_Nascimento DATE);
+
+ALTER TABLE tb_produtos ADD COLUMN (preços FLOAT);
+
+
+
