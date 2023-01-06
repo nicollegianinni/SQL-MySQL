@@ -1,0 +1,6 @@
+-- PARA DELETAR (DELETE) REGISTRO DA TABELA
+USE sucos;
+
+SELECT * FROM tb_produtos;
+
+DELETE FROM tb_produtos WHERE COD = '1040107';
